@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Mail, Linkedin, Github, MapPin } from "lucide-react";
+import { Mail, Linkedin, Github, MapPin, ListTodo } from "lucide-react";
 
 export function Contact() {
   return (
@@ -41,7 +41,7 @@ export function Contact() {
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/saspian"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-8 border border-border rounded-2xl hover:border-foreground/20 transition-all duration-300"
@@ -60,7 +60,7 @@ export function Contact() {
             </a>
 
             <a
-              href="https://github.com"
+              href="https://github.com/saspian"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-8 border border-border rounded-2xl hover:border-foreground/20 transition-all duration-300"
@@ -77,18 +77,24 @@ export function Contact() {
                 </div>
               </div>
             </a>
-
-            <div className="p-8 border border-border rounded-2xl">
+            <a
+              href="https://task.saspian.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-8 border border-border rounded-2xl hover:border-foreground/20 transition-all duration-300"
+            >
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-accent rounded-lg">
-                  <MapPin className="w-6 h-6" />
+                  <ListTodo className="w-6 h-6" />
                 </div>
                 <div className="space-y-1">
-                  <h3 className="text-xl">Location</h3>
-                  <p className="text-muted-foreground">Marburg, Germany</p>
+                  <h3 className="text-xl">Task Manager</h3>
+                  <p className="text-muted-foreground group-hover:text-foreground transition-colors">
+                    Test my product
+                  </p>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </motion.div>
       </div>

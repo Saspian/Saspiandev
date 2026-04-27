@@ -63,7 +63,7 @@ export function About() {
               <h3 className="text-sm uppercase tracking-wide text-muted-foreground">
                 Location
               </h3>
-              <p className="text-foreground">Marburg, Germany</p>
+              <p className="text-foreground">Frankfurt, Germany</p>
             </div>
           </div>
         </motion.div>
