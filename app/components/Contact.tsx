@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "motion/react";
 import { Mail, Linkedin, Github, MapPin, ListTodo } from "lucide-react";
 
