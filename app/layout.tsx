@@ -73,6 +73,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <script defer src="https://cloud.umami.is/script.js" data-website-id="4cd26692-86cf-4ab1-85fa-fa595ecec138"></script>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
